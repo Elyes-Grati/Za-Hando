@@ -83,6 +83,10 @@ Field of Study: Industrial IT and Automation Engineering (IIA)
 
 ![Za Hando assembled robot](images/robot.jpg)
 
+>  **Live demonstration**
+>
+> [![Demo video thumbnail](https://img.youtube.com/vi/H1TeHAQTK5o/maxresdefault.jpg)](https://www.youtube.com/watch?v=H1TeHAQTK5o)
+
 ---
 
 ## 4. Motivation and Problem Statement
