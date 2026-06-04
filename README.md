@@ -54,11 +54,11 @@
 
 ## 1. Abstract
 
-Za Hando is an academic robotics project that demonstrates the tight integration of five distinct technology domains — embedded systems, computer vision, speech recognition, large language model reasoning, and robot kinematics — into a single autonomous pipeline. The system allows a non-technical user to direct a 4-degree-of-freedom servo arm through spoken natural-language instructions such as "pick up the red circle and place it in the left zone," with no cloud dependency, no pre-programmed object positions, and no knowledge of coordinate systems required from the user.
+Za Hando is an academic robotics project that demonstrates the tight integration of five distinct technology domains: embedded systems, computer vision, speech recognition, large language model reasoning, and robot kinematics into a single autonomous pipeline. The system allows a non-technical user to direct a 4-degree-of-freedom servo arm through spoken natural-language instructions such as "pick up the red circle and place it in the left zone," with no cloud dependency, no pre-programmed object positions, and no knowledge of coordinate systems required from the user.
 
 At runtime, the system transcribes the user's voice using OpenAI Whisper, captures the workspace scene with an overhead camera and classifies objects by colour and shape using an HSV-based computer vision pipeline, passes a structured scene description to a locally-running Gemma 4 language model to generate a JSON action plan, solves the required joint angles for each motion target using analytical inverse kinematics, and transmits servo commands over USB serial to Arduino firmware that executes smooth, rate-limited motion.
 
-The entire processing chain — from spoken word to physical motion — runs offline on a single host machine. The 3D-printed arm structure is adapted from an existing open-source model; all control software was designed and implemented independently by the project team.
+The entire processing chain, from spoken word to physical motion, runs offline on a single host machine. The 3D-printed arm structure is adapted from an existing open-source model; all control software was designed and implemented independently by the project team.
 
 ---
 
