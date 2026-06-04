@@ -81,7 +81,7 @@ Field of Study: Industrial IT and Automation Engineering (IIA)
 ## 3. Robot
 
 
-[Za Hando assembled robot](images/robot.jpg) 
+images/robot.jpg
 
 ---
 
