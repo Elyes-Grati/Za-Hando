@@ -240,6 +240,7 @@ class A4Calibrator:
         overlay = frame.copy()
         cv2.rectangle(overlay, (0, 0), (w, 60), CLR_OVERLAY, -1)
         cv2.addWeighted(overlay, 0.65, frame, 0.35, 0, frame)
+      
 
         err_str = (f"  |  reproj: {self._reproj_error():.3f} mm"
                    if self.H is not None else "")
